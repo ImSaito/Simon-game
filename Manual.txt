@@ -1,0 +1,27 @@
+Para poder jugar al simon:
+
+	1 - Seleccionar en el emulador el .bin generado
+	2 - Compilarlo y ejecutarlo
+	3 - Jugar
+
+El simon se ha diseñado asignando a cada color un numero, el verde es el 1,
+el rojo el 2, el amarillo el 3 y el azul el 4.
+
+El juego funciona generando un numero en una cadena entre [1-4], ambos
+incluidos. Luego se realiza tu jugada y en cada entrada que realizas se
+compara con la jugada, si es igual, se pasa al siguiente. Las cadenas
+estaran prerellenadas con 0 y con un 25 al final, al llegar al 25 saltara
+el mensaje de ser ganador, y el 0 sirve para saber en donde introducir la
+jugada que se genera automaticamente.
+
+El juego incluye unas funciones de impresion de jugadas que es leido una jugada
+llama a la funcion y va imprimiendo el color correspondiente. Esto nos sirve
+para imprimir la jugada incial (introductoria) y para imprimri la jugada 
+de la maquina. Esa funcion llama a pequeñas funciones para cada tecla, las 
+cuales se llaman al teclear, para dar el efecto de que pulsa esa tecla + sonido.
+
+El juego esta diseñado hasta 25, pero ampliando la cadena de jugadarandom se podria
+ampliar el objetivo del mismo. Esta situado en este limite ya que me parecia mas
+que suficiente para jugar al simon, y llegar ahsta un punto que el juego se complique, 
+tambien es en parte porque el simon es un juego endless y me parecia curioso meterle
+un objetivo, una forma de ganar.ñ

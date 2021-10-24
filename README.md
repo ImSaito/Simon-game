@@ -1,2 +1,2 @@
 # Simon Game
- Simon game programmen on ensambler
+ Simon game programmen on aseembly

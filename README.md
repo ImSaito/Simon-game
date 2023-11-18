@@ -1,2 +1,2 @@
 # Simon Game
- Simon game programmen on aseembly
+ Simon game programmed on aseembly
